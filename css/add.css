@@ -1,0 +1,144 @@
+@media only screen and (max-width: 992px) {
+  .mouse {
+    display: none !important;
+  }
+}
+
+.link-81 {
+  color: #192f59;
+  /*font-size: 20px;*/
+  text-decoration: none;
+  padding: 5px 15px;
+  /*margin: 0 5px;*/
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  border: solid 1px #192f59;
+}
+
+.link-81::before {
+  content: "";
+  position: absolute;
+  background: #192f59;
+  width: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: width 0.3s ease-in-out;
+}
+
+.link-81:hover {
+  color: #fff;
+}
+
+.link-81:hover::before {
+  width: 100%;
+}
+
+.link-81:hover {
+  z-index: 1;
+}
+
+@media (max-width: 991.98px) {
+  .ftco-navbar-light {
+    background: #fff !important;
+  }
+  .ftco-navbar-light .navbar-toggler {
+    color: #000 !important;
+  }
+}
+
+.section-title2 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+  /*line-height: 66px;*/
+  color: #fff !important;
+  /*margin-bottom: 1.4rem !important;*/
+}
+.section-title3 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+  /*line-height: 66px;*/
+  color: #000 !important;
+  text-align: center;
+  /*margin-bottom: 1.4rem !important;*/
+}
+.he {
+  line-height: 68px;
+}
+.underline2 {
+  color: #1e3636;
+  position: relative;
+  display: inline-block;
+  font-family: "New York Large", serif;
+  color: #fff;
+  font-style: italic;
+  font-weight: 496;
+}
+
+.underline2 svg {
+  position: absolute;
+  bottom: -0.7rem;
+  width: 100%;
+  left: 0;
+}
+
+.underline3 {
+  position: relative;
+  display: inline-block;
+  font-family: "New York Large", serif;
+  color: #fff;
+  font-style: italic;
+  font-weight: 496;
+}
+
+.underline3 svg {
+  position: absolute;
+  bottom: -0.7rem;
+  width: 100%;
+  left: 0;
+  color: #192f59;
+}
+
+.top {
+  margin-top: -46px;
+}
+
+@media (max-width: 900px) {
+  .section-title2 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    /*line-height: 66px;*/
+    color: #fff !important;
+    /*margin-bottom: 1.4rem !important;*/
+  }
+  .section-title3 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    /*line-height: 66px;*/
+    color: #000 !important;
+    /*margin-bottom: 1.4rem !important;*/
+  }
+
+  .he {
+    line-height: 0px;
+    margin-bottom: 15px;
+  }
+
+  .he1 {
+    line-height: 68px;
+  }
+
+  .he2 {
+    line-height: 30px;
+  }
+
+  .top {
+    margin-top: -125px;
+  }
+}
