@@ -1,0 +1,79 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(90deg, #d8cfcf, #bfd3d2);
+  color: #222;
+  margin: 0;
+  padding: 40px;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.timeline-item {
+  width: 250px;
+  text-align: center;
+  position: relative;
+}
+
+.timeline-item h3 {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.timeline-item p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 8px;
+}
+
+.year {
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 30px;
+  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+  margin-bottom: 15px;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.blue { background-color: #1f39ff; }
+.green { background-color: #065f46; }
+.light-blue { background-color: #65c3ff; }
+.teal { background-color: #0f5f66; }
+.gold { background-color: #d6b27a; }
+.red { background-color: #e74c3c; }
+
+.icon.blue i { color: #1f39ff; }
+.icon.green i { color: #065f46; }
+.icon.light-blue i { color: #65c3ff; }
+.icon.teal i { color: #0f5f66; }
+.icon.gold i { color: #d6b27a; }
+.icon.red i { color: #e74c3c; }
+
+@media (max-width: 1000px) {
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+  .timeline-item {
+    width: 80%;
+  }
+}
